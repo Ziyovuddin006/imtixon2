@@ -1,0 +1,214 @@
+@import "./variable.scss";
+@import "./mixin.scss";
+
+.section-2{
+    display: flex;
+    gap: 75px;
+}
+.mobile{
+    display: none;
+}
+.box-2{
+    padding-bottom: 30px;
+    &-firs-direct{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 82px;
+    }
+    &-first-title{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        width: 224px;
+    }
+    &-second-direct{
+        width: 476px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 12px;
+    }
+    &-third-direct{
+        width: 476px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 12px;
+    }
+    &-second-title{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 131px;
+    }
+    &-third-title{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 25px;
+    }
+}
+.desctop{
+    margin-right:  0;
+}
+.box-3-box-1{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    &-first-direct{
+        width: 325px;
+    }
+    &-first-direct2{
+        width: 365px;
+    }
+}
+.section-3{
+    display: flex;
+    gap: 79px;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    &-first-direct{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    &-first-title{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        margin-top: 8px;
+    }
+    &-second-direct{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        width: 470px; 
+        margin-top: 23px;
+    }
+}
+.section-4{
+    padding-top: 150px;
+    display: flex;
+    gap: 80px;
+}
+.box-4{
+    &-first-direct{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    &-first-title{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        margin-top: 8px;
+    }
+    &-second-direct{
+        width: 480px;
+        margin-top: 23px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    &-second-title{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 30px;
+    }
+    &-third-direct{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        width: 480px;
+        margin-top: 12px;
+    }
+    &-third-title{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 25px;
+    }
+    &-fours-direct{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        width: 480px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 411px) {
+    .box-2-second-direct{
+        width: 334px;
+    }
+    .box-2-third-direct{
+        width: 334px;
+    }
+    .box-2-first-direct{
+        margin-top: 50px;
+    }
+    .box-2-second-title{
+        margin-top: 16px;
+    }
+    .section-3{
+        display: block;
+    }
+    .section-3-second-direct{
+        width: 334px;
+    }
+    .box-3-box-1{
+        margin-top: 16px;
+    }
+    .box-4-second-direct{
+        width: 343px;
+    }
+    .box-4-third-direct{
+        width: 343px;
+    }
+    .box-4-fours-direct{
+        width: 343px;
+    }
+    .box-4-first-direct{
+        margin-top: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 411px) {
+    .desctop{
+        display: none;
+    }  
+    .mobile{
+        display: block;
+    } 
+}

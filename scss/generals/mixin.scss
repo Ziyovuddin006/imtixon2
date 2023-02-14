@@ -1,0 +1,4 @@
+@import "./variable.scss";
+@mixin btn{
+    border-radius: $radius;
+}

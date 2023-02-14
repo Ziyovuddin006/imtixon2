@@ -1,0 +1,205 @@
+@import "./variable.scss";
+@import "./mixin.scss";
+
+
+.main-1{
+    &-first-title{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        padding-top: 50px;
+        text-align: center;
+    }
+    &-first-direct{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        width: 542px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 16px;
+    }
+}
+.box-5{
+    display: flex;
+    justify-content: space-around;
+    &-box1-box-1{
+        margin-top: 24px;
+        display: flex;
+        gap: 41px;
+        &-first-direct{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            border-radius: 26.5px;
+            border: 1px solid white;
+            background-color: #fff;
+            padding: 10px 24px;
+            display: block;
+        }
+    }
+    &-box1-box-2{
+        margin-top: 34px;
+        display: flex;
+        gap: 41px;
+        margin-left: 50px;
+        &-first-direct{
+            padding-top: 24px;
+        }
+    }
+    &-box1-box-3{
+        display: flex;
+        margin-top: 54px;
+        gap: 39px;
+        margin-left: 50px;
+    }
+}
+.main-btn{
+    @include btn;
+    @include  btn;
+    background-color: $green;
+    padding: 14px 32px;
+    color: $white;
+    border: none;
+    margin-left: 471px;
+    margin-top: 38px;
+}
+.box-5-box1-box-4{
+    display: flex;
+    gap: 39px;
+    margin-left: 100px;
+}
+.box-5-box1-box-5{
+    display: none;
+}
+.main-2{
+    padding-top: 150px;
+    &-first-title{
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 51px;
+    }
+    &-first-direct{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 8px;
+    }
+}
+.main-2-boxs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.main-2-boxs-box-1{
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.main-2-boxs-box-2-direct{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    width: 294px;
+    margin-left: 37px;
+    margin-top: 12px;
+}
+.main-2-boxs-box-1-direct{
+    margin-top: 24px;
+    margin-left: 37px;
+}
+.main-2-boxs{
+    margin-top: 32px;
+}
+.main-2-boxs-box-2-direct:active{
+    color: $green;
+}
+.box-3-direct-for-active{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    width: 294px;
+    margin-left: 37px;
+    margin-top: 12px;
+}
+.box-3-direct-for-active:active{
+    color: $green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 411px) {
+    .box-5{
+        display: block;
+    }
+    .main-btn{
+        margin-left: 0;
+    }
+    .main-1-first-direct{
+        width: 338px;
+    }
+    .main-1-first-title{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px
+    }
+    .box-5-box1-box-3{
+        display: none;
+    }
+    .box-5-box1-box-5{
+        display: flex;
+        gap: 35px;
+        margin-top: 50px;
+    }
+    .box-5-box1-box-2-first-direct{
+        text-align: center;
+    }
+    .box-5-box1-box-2-first-direct{
+        width: 179px;
+    }
+    .box-5-box1-box-4{
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .box-5-box1-box-2{
+        margin-top: 50px;
+    }
+    .box-5-box1-box-1{
+        margin-top: 39px;
+    }
+    .main-btn{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        margin-left: 62px;
+    }
+    .main-2-first-direct{
+        width: 349px;
+    }
+    .main-2-boxs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .main-2-boxs-box-1{
+        border: none;
+    }
+    .box-3-direct-for-active{
+        margin-left: 0;
+    }
+    .main-2-boxs-box-1-direct{
+        margin-left: 0;
+    }
+    .main-2-boxs-box-2-direct{
+        margin-left: 0;
+    }
+}
